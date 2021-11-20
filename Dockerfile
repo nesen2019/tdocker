@@ -1,9 +1,6 @@
 FROM ubuntu:20.04
 
-LABEL maintainer="Pancras Chen" \
-      name="tdocker" \
-      version="1.0"
-
+LABEL org.opencontainers.image.source=https://github.com/nesen2019/tdocker
 
 # Install basics
 #RUN apt-get -y install cmake
